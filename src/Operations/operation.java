@@ -1,4 +1,4 @@
-package ClasesyObjetos;
+package Operations;
 
 import javax.swing.JOptionPane;
 
@@ -9,7 +9,7 @@ public class operation {
     int sum;
     int rest;
     int product;
-    int div;
+    double div;
     float exponent;
 
     public void integernumber() {
@@ -30,7 +30,7 @@ public class operation {
     }
 
     public void div() {
-        div = num1 / num2;
+        div = (double) num1 / num2;
     }
     
     public void exponet(){
