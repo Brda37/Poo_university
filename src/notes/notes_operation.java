@@ -9,9 +9,9 @@ public class notes_operation {
     double sum;
     double average;
     public void integerNotes(){
-        noteone = (double) Integer.parseInt(JOptionPane.showInputDialog("Ingrese la primera nota: "));
-        notetwo = (double) Integer.parseInt(JOptionPane.showInputDialog("Ingrese la segunda nota: "));
-        notethree = (double) Integer.parseInt(JOptionPane.showInputDialog("Ingrese la tercer nota: "));
+        noteone = (double) Double.parseDouble(JOptionPane.showInputDialog("Ingrese la primera nota: "));
+        notetwo = (double) Double.parseDouble(JOptionPane.showInputDialog("Ingrese la segunda nota: "));
+        notethree = (double) Double.parseDouble(JOptionPane.showInputDialog("Ingrese la tercer nota: "));
     }
     public void operations(){
         sum = noteone + notetwo + notethree;
