@@ -9,7 +9,7 @@ public class operation_triangle {
     int sidethree;
 
     public void integer(){
-        sideone = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el tamaño del primer lado: "));
+        sideone = parseInt(JOptionPane.showInputDialog("Ingrese el tamaño del primer lado: "));
         sidetwo = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el tamaño del segundo lado: "));
         sidethree = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el tamaño del tercer lado: "));
     }
