@@ -12,6 +12,18 @@ public class date {
         year = integerYear;
     }
 
+    public void today() {
+        System.out.println("¿Es hoy?");
+    }
+
+    public void today(boolean sent) {
+        if (sent == true) {
+            System.out.println("Si es hoy");
+        } else {
+            System.out.println("No es hoy");
+        }
+    }
+
     public void result() {
         System.out.println("Dia/Mes/Año  " + day + "/" + month + "/" + year);
     }
